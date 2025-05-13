@@ -1,14 +1,14 @@
 <template>
   <div>
-    <navbar class=""></navbar>
-    <sidebar></sidebar>
+    <navbar class="" />
+    <sidebar />
+    <div />
   </div>
-
 </template>
 
-<script setup lang='ts'>
-import navbar from "@/layout/components/navbar.vue"
-import sidebar from "./components/sidebar.vue";
+<script setup lang="ts">
+import navbar from "@/layout/components/Navbar.vue";
+import sidebar from "./components/Sidebar.vue";
 </script>
 
 <style></style>
