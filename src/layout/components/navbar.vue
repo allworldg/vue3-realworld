@@ -4,42 +4,29 @@
       id="test"
       class="flex mr-auto ml-auto pl-[15px] pr-[15px] max-w-[940px]"
     >
-      <a
+      <RouterLink
         class="self-start text-2xl font-['Titillium_Web',sans-serif]! pt-0 mr-4 text-[#5CB85C]!"
-        href=""
+        to="/"
       >
         conduit
-      </a>
+      </RouterLink>
       <ul class="flex flex-1 py-1 justify-end">
         <li class="">
-          <a
-            href="/#"
-            class="text-[#b2b2b2]! hover:text-[#000000]! visited:text-[#000000]! no-underline!"
-          >
-            home
-          </a>
+          <NavLink to="/">home</NavLink>
         </li>
         <li class="ml-3">
-          <a
-            href="/2"
-            class="text-[#b2b2b2]! hover:text-[#000000]! visited:text-[#000000]! no-underline!"
-          >
-            Sign In
-          </a>
+          <NavLink to="/login">Sign In</NavLink>
         </li>
         <li class="ml-3">
-          <a
-            href="/1"
-            class="text-[#b2b2b2]! hover:text-[#000000]! visited:text-[#000000]! no-underline!"
-          >
-            Sign Up
-          </a>
+          <NavLink to="/signup">Sign Up</NavLink>
         </li>
       </ul>
     </div>
   </nav>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NavLink from "@/components/Link/NavLink.vue";
+</script>
 
 <style></style>
