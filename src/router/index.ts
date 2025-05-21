@@ -20,7 +20,7 @@ export const router = createRouter({
           component: Login,
         },
         {
-            path:"signup",
+            path:"register",
             component: SignUp
         }
       ],
