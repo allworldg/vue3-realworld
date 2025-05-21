@@ -5,6 +5,7 @@
     exact-active-class="text-[#000000]!"
     :to="props.to"
     v-bind="$attrs"
+
   >
     <slot />
   </AppLink>
