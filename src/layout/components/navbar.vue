@@ -2,10 +2,10 @@
   <nav class="py-2 px-4">
     <div
       id="test"
-      class="flex mr-auto ml-auto pl-[15px] pr-[15px] max-w-[940px]"
+      class="flex mx-auto pl-[15px] pr-[15px] max-w-[940px]"
     >
       <RouterLink
-        class="self-start text-2xl font-['Titillium_Web',sans-serif]! pt-0 mr-4 text-[#5CB85C]!"
+        class="self-start text-2xl font-sans font-bold pt-0 mr-4 text-[#5CB85C]!"
         to="/"
       >
         conduit
@@ -18,7 +18,7 @@
           <NavLink to="/login">Sign In</NavLink>
         </li>
         <li class="ml-3">
-          <NavLink to="/signup">Sign Up</NavLink>
+          <NavLink to="/register">Sign Up</NavLink>
         </li>
       </ul>
     </div>

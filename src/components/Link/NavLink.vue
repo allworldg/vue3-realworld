@@ -7,7 +7,6 @@
     v-bind="$attrs"
   >
     <slot />
-    <input >
   </AppLink>
 </template>
 
