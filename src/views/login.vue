@@ -22,7 +22,7 @@
               type="email"
               placeholder="Email"
               required
-            />
+            >
             <div class="validator-hint hidden">Enter valid email address</div>
           </fieldset>
           <fieldset class="flex flex-col mb-4!">
@@ -32,7 +32,7 @@
               type="password"
               placeholder="Password"
               required
-            />
+            >
             <div class="validator-hint hidden">Enter valid Passowrd</div>
           </fieldset>
           <div class="flex">

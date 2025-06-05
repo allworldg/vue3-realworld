@@ -22,7 +22,7 @@
               type="text"
               placeholder="Username"
               required
-            />
+            >
             <div class="validator-hint hidden">Enter valid username</div>
           </fieldset>
 
@@ -33,7 +33,7 @@
               type="email"
               placeholder="Email"
               required
-            />
+            >
             <div class="validator-hint hidden">Enter valid Email</div>
           </fieldset>
 
@@ -44,7 +44,7 @@
               type="password"
               placeholder="Password"
               required
-            />
+            >
             <div class="validator-hint hidden">Enter valid Passowrd</div>
           </fieldset>
 
