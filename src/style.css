@@ -1,2 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("../public/fonts/Titillium_Web/TitilliumWeb-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("../public/fonts/Titillium_Web/Titillium_Web-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+}
