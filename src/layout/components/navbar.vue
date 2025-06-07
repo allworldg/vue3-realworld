@@ -5,7 +5,7 @@
       class="flex mx-auto pl-[15px] pr-[15px] max-w-[940px]"
     >
       <RouterLink
-        class="self-start text-2xl font-sans font-bold pt-0 mr-4 text-[#5CB85C]!"
+        class=" text-xl   pt-0 mr-4 text-[#5CB85C] font-[Titillium_Web] "
         to="/"
       >
         conduit
