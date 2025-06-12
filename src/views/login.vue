@@ -2,11 +2,11 @@
   <div class="max-w-[940px] mx-auto mt-5">
     <div class="flex flex-wrap">
       <div class="flex-[0_0_50%] max-w-[50%] mx-auto">
-        <h1 class="text-center text-3xl">Sign In</h1>
+        <h1 class="text-center text-4xl">Sign In</h1>
         <p class="text-center! my-2.5">
           <RouterLink
             to="/register"
-            class="text-[#5CB85C]! font-['Source_Sans_Pro',sans-serif]! text-base! w-full"
+            class="text-[#5CB85C]! font-['Source_Sans_Pro',sans-serif]! text-sm w-full"
           >
             Need an account?
           </RouterLink>
@@ -37,10 +37,10 @@
           </fieldset>
           <div class="flex">
             <button
-              class="bg-[#5cb85c] text-white! btn h-11 w-25 ml-auto"
+              class="bg-[#5cb85c] text-white btn h-11 w-23 ml-auto text-xl font-thin"
               type="submit"
             >
-              Sign In
+              Sign in
             </button>
           </div>
         </form>
