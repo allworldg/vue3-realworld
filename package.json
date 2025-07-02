@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"node ./mock/server.js\" \"vite\"",
+    "dev": "concurrently \"node .\\mock\\server.js\" \"vite\"",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky"
@@ -22,6 +22,7 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
     "@types/node": "^22.14.1",
     "@vitejs/plugin-vue": "^5.2.2",
     "@vue/tsconfig": "^0.7.0",

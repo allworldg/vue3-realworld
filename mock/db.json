@@ -1,0 +1,155 @@
+{
+  "articles": [
+    {
+      "slug": "cultellus-enim-amicitia",
+      "title": "aeger",
+      "description": "Volutabrum cubicularis sit ratione cetera veniam.",
+      "createdAt": "2021-09-04T15:46:38.396Z",
+      "updatedAt": "2021-02-04T05:42:53.785Z",
+      "favorited": false,
+      "favoritesCount": 76,
+      "author": {
+        "username": "Ella.Veum78",
+        "bio": "Argentum audentia ipsum trado.",
+        "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/49.jpg",
+        "following": false
+      }
+    },
+    {
+      "slug": "sustineo-benevolentia-ocer",
+      "title": "volaticus",
+      "description": "Atrox minus comedo tam bellicus demens theologus adnuo audax officiis.",
+      "createdAt": "2024-12-01T07:31:00.515Z",
+      "updatedAt": "2022-07-02T02:07:48.405Z",
+      "favorited": false,
+      "favoritesCount": 38,
+      "author": {
+        "username": "Ivy48",
+        "bio": "Sumo ulciscor arcesso dapifer provident concido cilicium tenetur canonicus.",
+        "image": "https://avatars.githubusercontent.com/u/45919112",
+        "following": true
+      }
+    },
+    {
+      "slug": "adflicto-ullam-conor",
+      "title": "vorax",
+      "description": "Abscido paulatim pectus sonitus thermae patria venustas tametsi volo aperiam.",
+      "createdAt": "2025-11-15T08:27:39.688Z",
+      "updatedAt": "2023-06-30T12:04:50.900Z",
+      "favorited": false,
+      "favoritesCount": 60,
+      "author": {
+        "username": "Juana_Mayer",
+        "bio": "Arceo deripio tolero asporto.",
+        "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/51.jpg",
+        "following": false
+      }
+    },
+    {
+      "slug": "comis-tracto-stillicidium",
+      "title": "approbo",
+      "description": "Ab porro molestias aperiam sollers terga deputo.",
+      "createdAt": "2021-05-25T13:00:06.974Z",
+      "updatedAt": "2021-01-28T11:19:01.102Z",
+      "favorited": true,
+      "favoritesCount": 30,
+      "author": {
+        "username": "Brian_Stark79",
+        "bio": "Compello abutor tepidus vitae stipes.",
+        "image": "https://avatars.githubusercontent.com/u/61890131",
+        "following": false
+      }
+    },
+    {
+      "slug": "aduro-tabernus-accusamus",
+      "title": "ventosus",
+      "description": "Verto adduco dignissimos cedo amplus cenaculum conicio.",
+      "createdAt": "2023-08-09T02:57:18.853Z",
+      "updatedAt": "2024-07-23T01:26:04.754Z",
+      "favorited": true,
+      "favoritesCount": 99,
+      "author": {
+        "username": "Lula_Marquardt70",
+        "bio": "Varietas apostolus quibusdam deprecator candidus vivo sustineo verbum doloremque.",
+        "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/48.jpg",
+        "following": false
+      }
+    },
+    {
+      "slug": "culpo-aro-velociter",
+      "title": "speculum",
+      "description": "Cornu aeneus accusamus solus suus talus ultra attero.",
+      "createdAt": "2022-11-19T15:55:19.145Z",
+      "updatedAt": "2022-02-16T05:49:23.356Z",
+      "favorited": true,
+      "favoritesCount": 56,
+      "author": {
+        "username": "Reilly.Lebsack80",
+        "bio": "Canto coruscus alioqui.",
+        "image": "https://avatars.githubusercontent.com/u/73718545",
+        "following": true
+      }
+    },
+    {
+      "slug": "cunabula-rerum-tollo",
+      "title": "tametsi",
+      "description": "Audio suppono adopto summisse veritatis conitor.",
+      "createdAt": "2025-04-17T11:45:18.014Z",
+      "updatedAt": "2024-12-31T19:30:30.210Z",
+      "favorited": false,
+      "favoritesCount": 24,
+      "author": {
+        "username": "Eryn74",
+        "bio": "Cito coadunatio viduo sono.",
+        "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/9.jpg",
+        "following": false
+      }
+    },
+    {
+      "slug": "bis-titulus-saepe",
+      "title": "custodia",
+      "description": "Clibanus dignissimos cervus utilis cattus.",
+      "createdAt": "2024-02-08T03:31:27.755Z",
+      "updatedAt": "2021-01-19T03:54:35.525Z",
+      "favorited": true,
+      "favoritesCount": 71,
+      "author": {
+        "username": "Seamus.Wilkinson96",
+        "bio": "Cupiditas statim infit repellat ab ubi terminatio allatus.",
+        "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/47.jpg",
+        "following": false
+      }
+    },
+    {
+      "slug": "corrumpo-bibo-nulla",
+      "title": "voveo",
+      "description": "Caries tardus depulso.",
+      "createdAt": "2021-04-23T23:44:11.206Z",
+      "updatedAt": "2022-04-21T19:36:42.569Z",
+      "favorited": true,
+      "favoritesCount": 76,
+      "author": {
+        "username": "Gerald.Parker-Prosacco",
+        "bio": "Spectaculum adinventitias deputo solitudo.",
+        "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/27.jpg",
+        "following": true
+      }
+    },
+    {
+      "slug": "ad-tyrannus-impedit",
+      "title": "eaque",
+      "description": "Beatus tempora tempore perferendis repellendus celo calamitas crustulum alias.",
+      "createdAt": "2024-02-01T02:28:30.398Z",
+      "updatedAt": "2024-07-18T18:42:20.421Z",
+      "favorited": false,
+      "favoritesCount": 98,
+      "author": {
+        "username": "Anastasia_Quitzon35",
+        "bio": "Adiuvo eos viriliter bestia vos conduco tepidus comminor turpis.",
+        "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/16.jpg",
+        "following": true
+      }
+    }
+  ],
+  "tags": []
+}
