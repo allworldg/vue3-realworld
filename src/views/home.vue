@@ -80,7 +80,22 @@
                       </div>
                     </div>
                   </div>
-                  <div class="ml-auto">right</div>
+                  <button
+                    class="min-w-9 h-6 ml-auto inline-flex items-center justify-center bg-[#fff] border border-[#5CB85C] rounded-[0.2rem] leading-1 cursor-pointer"
+                    type="button"
+                  >
+                    <svg
+                      class="shrink-0 icon w-3 h-3 text-[#5cb85c]"
+                      viewBox="0 0 1024 1024"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M917.333333 166.4c-106.666667-106.666667-285.866667-106.666667-392.533333 0l-12.8 17.066667-17.066667-12.8C388.266667 64 209.066667 64 102.4 170.666667s-106.666667 285.866667 0 392.533333l375.466667 375.466667c17.066667 17.066667 42.666667 17.066667 59.733333 0l375.466667-375.466667c110.933333-110.933333 110.933333-290.133333 4.266666-396.8z"
+                        p-id="6173"
+                      />
+                    </svg>
+                    <span class="shrink-0 text-xs mt-1 ml-0.5">1</span>
+                  </button>
                 </div>
                 <div>
                   <h1>title</h1>
