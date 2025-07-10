@@ -82,10 +82,17 @@
                   </div>
                   <button
                     class="min-w-9 h-6 ml-auto inline-flex items-center justify-center bg-[#fff] border border-[#5CB85C] rounded-[0.2rem] leading-1 cursor-pointer"
+                    :class="isFavorited ? 'bg-green-main' : 'bg-white'"
                     type="button"
+                    @click="
+                      () => {
+                        isFavorited = !isFavorited;
+                      }
+                    "
                   >
                     <svg
-                      class="shrink-0 icon w-3 h-3 text-[#5cb85c]"
+                      class="shrink-0 icon w-3 h-3"
+                      :class="isFavorited ? 'text-white' : 'text-green-main'"
                       viewBox="0 0 1024 1024"
                       fill="currentColor"
                     >
@@ -94,7 +101,12 @@
                         p-id="6173"
                       />
                     </svg>
-                    <span class="shrink-0 text-xs mt-1 ml-0.5">1</span>
+                    <span
+                      class="shrink-0 text-xs mt-1 ml-0.5"
+                      :class="isFavorited ? 'text-white' : 'text-green-main'"
+                    >
+                      1
+                    </span>
                   </button>
                 </div>
                 <div>
@@ -127,6 +139,7 @@ function getArticleList(query: ArticlesQuery) {
 function getFeedArticleList(query: FeedArticlesQuery) {}
 const isLogin = ref<boolean>(false);
 const activeBtn = ref<number>(0);
+const isFavorited = ref<boolean>(false);
 </script>
 
 <style></style>
