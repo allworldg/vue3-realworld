@@ -22,8 +22,13 @@ export interface Article {
   tagList: Array<string>;
   createdAt: string;
   updatedAt: string;
+  favorited: boolean;
   favoritesCount: number;
   author: Author;
+}
+export interface ArticlesData {
+  articles: Array<Article>;
+  articlesCount: number;
 }
 
 export interface ArticlesQuery {

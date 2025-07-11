@@ -49,7 +49,11 @@
           </ul>
           <div>
             <div class="mt-[-1px]">
-              <div class="border-t-[1px] border-gray-200">
+              <div
+                v-for="article in articlesData.articles"
+                :key="article.slug"
+                class="border-t-[1px] border-gray-200"
+              >
                 <div class="my-5 flex">
                   <div class="flex">
                     <a
@@ -57,7 +61,7 @@
                       class="text-[#5CB85C]"
                     >
                       <img
-                        src=""
+                        :src="article.author.image"
                         class="rounded-[30px] h-[32px] w-[32px]"
                       >
                     </a>
@@ -70,29 +74,31 @@
                           href="test"
                           class="text-[#5CB85C] text-[1rem] hover:underline"
                         >
-                          Lysenna35
+                          {{ article.author.username }}
                         </a>
                       </div>
                       <div class="">
                         <span class="text-[#bbb] text-[0.8rem] font-light">
-                          Mon Jun 02 2025
+                          {{ article.createdAt }}
                         </span>
                       </div>
                     </div>
                   </div>
                   <button
                     class="min-w-9 h-6 ml-auto inline-flex items-center justify-center bg-[#fff] border border-[#5CB85C] rounded-[0.2rem] leading-1 cursor-pointer"
-                    :class="isFavorited ? 'bg-green-main' : 'bg-white'"
+                    :class="article.favorited ? 'bg-green-main' : 'bg-white'"
                     type="button"
                     @click="
                       () => {
-                        isFavorited = !isFavorited;
+                        article.favorited = !article.favorited;
                       }
                     "
                   >
                     <svg
                       class="shrink-0 icon w-3 h-3"
-                      :class="isFavorited ? 'text-white' : 'text-green-main'"
+                      :class="
+                        article.favorited ? 'text-white' : 'text-green-main'
+                      "
                       viewBox="0 0 1024 1024"
                       fill="currentColor"
                     >
@@ -103,19 +109,28 @@
                     </svg>
                     <span
                       class="shrink-0 text-xs mt-1 ml-0.5"
-                      :class="isFavorited ? 'text-white' : 'text-green-main'"
+                      :class="
+                        article.favorited ? 'text-white' : 'text-green-main'
+                      "
                     >
-                      1
+                      {{ article.favoritesCount }}
                     </span>
                   </button>
                 </div>
                 <div>
-                  <h1>title</h1>
-                  <div>text</div>
+                  <h1>{{ article.title }}</h1>
+                  <div>{{ article.description }}</div>
                 </div>
                 <div>
                   <div>Read more...</div>
-                  <div>tags</div>
+                  <div>
+                    <div
+                      v-for="(tag, index) in article.tagList"
+                      :key="index"
+                    >
+                      {{ tag }}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -129,17 +144,19 @@
 
 <script setup lang="ts">
 import { getArticles } from "@/api/article";
-import { ArticlesQuery, FeedArticlesQuery } from "@/type";
-import { ref } from "vue";
-function getArticleList(query: ArticlesQuery) {
-  getArticles(query).then((res) => {
-    console.log(res);
-  });
-}
+import { ArticlesData, FeedArticlesQuery } from "@/type";
+import { onMounted, ref } from "vue";
 function getFeedArticleList(query: FeedArticlesQuery) {}
 const isLogin = ref<boolean>(false);
+const articlesData = ref<ArticlesData>({ articles: [], articlesCount: 0 });
 const activeBtn = ref<number>(0);
 const isFavorited = ref<boolean>(false);
+function mutateFavorite() {}
+onMounted(() => {
+  getArticles({ limit: 10, offset: 0 }).then((res) => {
+    articlesData.value = res.data;
+  });
+});
 </script>
 
 <style></style>

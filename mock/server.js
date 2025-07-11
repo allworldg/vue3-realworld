@@ -3,11 +3,10 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { faker } from "@faker-js/faker";
 import fs from "fs";
-import { title } from "process";
 
 function generateData(count = 10) {
   const data = {
-    articles: [],
+    articles: { articles: [], articlesCount: count },
     tags: [],
   };
   const articles = [];
@@ -42,7 +41,7 @@ function generateData(count = 10) {
       },
     });
   }
-  data.articles = articles;
+  data.articles.articles = articles;
 
   const tags = [];
   for (let i = 0; i < Math.floor(Math.random() * 20); i++) {

@@ -1,3 +1,4 @@
+import { ArticlesData } from "@/type";
 import request from "@/utils/request";
 
 export function getArticles(params?: {
@@ -7,7 +8,7 @@ export function getArticles(params?: {
   offset?: number;
   limit?: number;
 }) {
-  return request({
+  return request<ArticlesData>({
     url: "/articles",
     method: "GET",
     params: params,
